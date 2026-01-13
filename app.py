@@ -250,7 +250,7 @@ def create_visualizations(df):
             size='nilai harian',
             hover_data=['nama siswa'],
             title='Perbandingan Nilai Harian vs Nilai Tes',
-            trendline="ols"
+            
         )
         fig5.update_layout(
             xaxis_title="Nilai Harian",
@@ -430,7 +430,7 @@ def main():
             
             3. **Visualisasi:**
                - Histogram & Box plot
-               - Scatter plot dengan trendline
+              
                - Pie chart kategori
             """)
         
@@ -444,4 +444,5 @@ def main():
         st.rerun()
 
 if __name__ == "__main__":
+
     main()
